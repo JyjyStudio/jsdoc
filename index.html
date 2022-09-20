@@ -22,7 +22,16 @@
   <link type="text/css" rel="stylesheet" href="">
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-  
+  <style>
+    h3 {
+      font-weight: 500;
+      font-style: italic;
+      margin-top: 1em;
+    }
+    .content h2(:first-child) {
+    margin-top: 0;
+}
+  </style>
 </head>
 
 
@@ -70,7 +79,8 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Components</h3><ul><li><a href="BarChart.html">BarChart</a></li><li><a href="Card.html">Card</a></li><li><a href="Home.html">Home</a></li><li><a href="LinearChart.html">LinearChart</a></li><li><a href="Navbar.html">Navbar</a></li><li><a href="RadarChart.html">RadarChart</a></li><li><a href="RadialChart.html">RadialChart</a></li><li><a href="Stats.html">Stats</a></li><li><a href="UserData.html">UserData</a></li></ul><h3>Global</h3><ul><li><a href="global.html#debounce">debounce</a></li><li><a href="global.html#useAxios">useAxios</a></li><li><a href="global.html#useViewport">useViewport</a></li></ul></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Components</h3><ul><li><a href="BarChart.html">BarChart</a></li><li><a href="Card.html">Card</a></li><li><a href="Home.html">
+              </a></li><li><a href="LinearChart.html">LinearChart</a></li><li><a href="Navbar.html">Navbar</a></li><li><a href="RadarChart.html">RadarChart</a></li><li><a href="RadialChart.html">RadialChart</a></li><li><a href="Stats.html">Stats</a></li><li><a href="UserData.html">UserData</a></li></ul><h3>Global</h3><ul><li><a href="global.html#debounce">debounce</a></li><li><a href="global.html#useAxios">useAxios</a></li><li><a href="global.html#useViewport">useViewport</a></li></ul></div>
                 
             </nav>
         </div>
@@ -78,7 +88,7 @@
             <div class="content">
                 <header class="page-title">
                     <p></p>
-                    <h1>Home</h1>
+                    <h1>Home</h1><br>
       </header>
                 
   <section>
@@ -86,9 +96,9 @@
         
         <p>Sportsee is an application for monitoring your physical activity. 12th project of the OpenClassrooms "Web app developer - JavaScript React" course. For this project I'm using React, D3.js and Recharts and is bootstrapped with <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>.</p>
         <h2>Useful links:</h2>
-        - <a href="https://jyjystudio.github.io/SportSee-P12" target="_blank">Live demo 🌍</a><br><br>
-        - <a href="https://github.com/JyjyStudio/SportSee-P12" target="_blank">Repository 📖</a><br><br>
-        - <a href="https://jyjystudio.github.io/jsdoc-p12/" target="_blank">Documentation 📑</a><br><br>
+        - <a href="https://jyjystudio.github.io/SportSee-P12" target="_blank">Live demo 🌍</a><br>
+        - <a href="https://github.com/JyjyStudio/SportSee-P12" target="_blank">Repository 📖</a><br>
+        - <a href="https://jyjystudio.github.io/jsdoc-p12/" target="_blank">Documentation 📑</a><br>
         - <a href="https://www.figma.com/file/BMomGVZqLZb811mDMShpLu/UI-design-Sportify-FR?node-id=1%3A2" target="_blank">Figma mock-up 🖼️</a><br>
 
 
@@ -99,17 +109,17 @@
             - NodeJS version 12.18
             - Yarn version 1.22.19 or npm version 8.15.0
 
-        <h3>Launching the project</h3>
+        <h3>Launching the project</h3><br>
                     
           1. Fork the repository<br><br>
           2. Clone it on your computer<br><br>
           2. Install the dependencies with <code>npm install</code> or <code>yarn install</code><br><br>
-          3.1 From home directory, open the terminal and run: <code>cd front/</code> then run <code>npm start</code> or <code>yarn start</code> (starts the app), App should start on port 3000 (<a href="http://localhost:3000" target="_blank">"http://localhost:3000</a>).<br><br>
-          3.2. for using api data:<br>
-              * From home directory, open a terminal and run: <code>cd back</code><br><br>
-              * Open the server with <code>npm run dev</code> or <code>yarn dev</code>, backend should be running on port 3000<br><br>
-              * Go to "front/pages/Stats.jsx" and verify that "use_mocked_data" variable line 26 is on false (pass it to true if you want to use mocked data)<br><br>
-              * From home directory, open a new terminal and run: <code>cd front/</code> then run <code>npm start</code> or <code>yarn start</code> (starts the app), App should start on port 3001.<br><br>
+          3.1 From home directory, open the terminal and run: <code>cd front/</code> then run <code>npm start</code> or <code>yarn start</code> (starts the app), App should start on port 3000 (<a href="http://localhost:3000" target="_blank">http://localhost:3000</a>).<br><br>
+          3.2. for using api data:<br><br>
+              - From home directory, open a terminal and run: <code>cd back</code><br><br>
+              - Open the server with <code>npm run dev</code> or <code>yarn dev</code>, backend should be running on port 3000<br><br>
+              - Go to "front/pages/Stats.jsx" and verify that "use_mocked_data" variable line 26 is on false (pass it to true if you want to use mocked data)<br><br>
+              - From home directory, open a new terminal and run: <code>cd front/</code> then run <code>npm start</code> or <code>yarn start</code> (starts the app), App should start on port 3001.<br><br>
         
         <h2>Available Scripts</h2>
 
